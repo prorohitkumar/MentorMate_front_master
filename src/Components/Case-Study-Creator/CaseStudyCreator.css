@@ -1,0 +1,136 @@
+.form-p {
+  width: 70%;
+  padding: 10px 20px;
+  margin-top: 7%;
+  margin-left: 13%;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: #fcfcfc;
+}
+
+.form-table-p {
+  display: table;
+}
+
+.form-row-p {
+  display: table-row;
+}
+
+.form-cell-p {
+  display: inline-block;
+  vertical-align: top;
+  width: calc(100% / 3);
+  box-sizing: border-box;
+  padding: 5px 10px;
+}
+
+label {
+  display: inline-block;
+  font-weight: bold;
+  margin: 5px 0;
+}
+
+input[type='text'],
+input[type='number'],
+select {
+  width: 90%;
+  padding: 8px;
+  margin: 10px;
+  margin-left: 0;
+  height: 38px;
+  border: 1px solid #c3c3c3;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+button {
+  width: 150px;
+  height: 35px;
+  background-color: #2980b9;
+  color: white;
+  justify-self: center;
+  padding: 0;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  margin-left: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.download-button {
+  background-color: #13b713;
+}
+
+.add-button {
+  display: inline-block;
+  background-color: #2980b9;
+  text-decoration: solid;
+  max-width: 50px;
+  padding: 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  cursor: pointer;
+  margin: 2px;
+}
+
+.remove-button {
+  text-decoration: solid;
+  max-width: 50px;
+  padding: 0 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  cursor: pointer;
+  color: white;
+  background-color: red;
+  margin: 2px;
+  font-size: 16px;
+}
+
+.buttons {
+  display: flex;
+  width: 100%;
+}
+.g-btn {
+  display: flex;
+  justify-content: left;
+  margin-right: 8%;
+}
+
+.gen-dwn-btn {
+  display: flex;
+  justify-content: space-between;
+  margin-right: 5%;
+  margin-top: 10px;
+  margin-bottom: 8px;
+}
+.genbtn {
+  display: flex;
+  justify-content: right;
+  margin-right: 5%;
+  margin-top: 10px;
+  margin-bottom: 8px;
+}
+
+button:hover {
+  background-color: lightblue;
+}
+
+.optional {
+  text-decoration: underline;
+  cursor: pointer;
+  color: blue;
+  display: flex;
+  justify-content: right;
+  margin-right: 8%;
+  margin-bottom: 20px;
+}
+
+textarea {
+  width: 90%;
+}
+
+.markdownResponse {
+  width: 75%;
+  margin: 10px auto;
+}

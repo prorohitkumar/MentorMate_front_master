@@ -1,0 +1,197 @@
+.assessmentCreatorBody{
+  margin-left: 180px;
+  margin-right: 180px;
+
+
+   max-width: 95%;
+    padding: 0;
+    align-items: center;
+    justify-content: center;
+}
+
+  
+  .field-group {
+    margin-right: 10px;
+    display: flex;
+  }
+  
+  .field-group label {
+    display: block;
+    text-align: left;
+    margin-left: 20px;
+    
+  }
+
+  .lable-text{
+    /* background-color: #dddddd; */
+    width: 110%;
+    margin-left: 10px;
+    padding: 0;
+    text-decoration: solid;
+  }
+
+ 
+ .top{
+    display: flex;
+    width: 90%;
+    margin: 0;
+    padding: 50px;
+    /* justify-content: ; */
+ }
+
+ 
+
+ .first{
+  width: 800px;
+  padding: 0;
+  align-items: center;
+  display: table;
+  justify-content: space-between;
+  margin-left: 8%;
+ }
+
+
+ 
+ .Text{
+  /* display: inline; */
+  /* display: flex; */
+  width: 100%;
+  display: table-row;
+ }
+
+
+ .top label{
+    justify-content: space-between;
+    width: 99%;
+    display: inline;
+    text-align: center;
+    /* text-align: center; */
+
+ }
+ .input2{
+  width: 100%;
+  max-height: 30px;
+  padding: 0;
+  margin-left: 200px;
+ }
+
+ .top input[type="text"]{
+  background-color: white;
+    margin: 2px;
+    height: 40px;
+    padding: 10px;
+    margin-left: 72px;
+    width: 350px;
+    text-decoration: solid;
+    font-size: medium;
+    text-align: center;
+
+ }
+ 
+   .top select{
+    max-height: 40px;
+    padding: 0;
+    margin-left: 148px;
+    text-align: center;
+    width: 350px;
+    background-color: white;
+
+  }
+
+  .top input[type="text"]:hover, .top select:hover{
+    border: 2px solid;
+    border-color: darkblue;
+  }
+
+  .field-group{
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+  }
+
+  .field-group button{
+    padding: 0;
+    width: 40px;
+    height: 36px;
+    padding: 0px;
+    justify-content:center ;
+  }
+  
+  .field-group input,
+  .field-group select {
+    /* min-width: 220px; */
+    /* max-width: 220px; */
+    max-height: 30px;
+    padding: 0;
+    margin-top: 2px;
+    /* margin-left: opx; */
+    box-sizing: border-box;
+    text-align: left;
+  }
+  
+ 
+  
+  /* Handle responsiveness */
+  @media (max-width: 768px) {
+    .concept-row {
+      flex-direction: column;
+    }
+    
+    .field-group {
+      width: 100%;
+      margin-right: 0;
+      margin-bottom: 10px;
+    }
+    
+    .add-button {
+      width: 20%;
+    }
+  }
+
+
+
+
+
+  .sub{
+    height: 80px;
+    /* display: flex; */
+    width: 100%;
+    padding: 0px;
+    justify-content: space-between;
+  }
+
+  .subBtn{
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .sub label{
+    display: inline;
+    max-width: 50%;
+  }
+
+  .sub label input{
+    max-width: 40px;
+  }
+
+  .sub button{
+    width: 180px;
+    height: 35px;
+    background-color: #00008b;
+    color: white;
+    padding: 0;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    margin-left: 0;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+   
+
+  .sub button[disabled] {
+    background-color: #dddddd; /* Change to your desired color */
+    color: #888888; /* Change to your desired color */
+    cursor: not-allowed;
+  }  
+ 

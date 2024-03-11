@@ -1,0 +1,274 @@
+.it-component {
+  max-width: 80%;
+  display: inline;
+  justify-items: center;
+  align-items: center;
+  }
+
+  .it-component form{
+    margin-left:8%;
+    width: 80%;
+    padding: 0;
+  }
+  
+  .form-roww{
+    /* border: 2px solid; */
+    border: 1px solid white;
+    box-shadow: 5px 0px 10px 5px#ccc;
+    /* border-radius: 2px; */
+    padding: 20px 50px;
+    width: 100%;
+    /* margin-left: 10px; */
+  
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 5px;
+  }
+
+  .form-roww label{
+    width: 250px;
+    display: inline;
+  }
+
+  .programmingLanguage{
+    /* margin-left: 15px; */
+    margin-right: 150px;
+    width: 90%;
+    padding: 0;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  
+  .programmingLanguage select{
+    margin-right: 200px;
+    width: 300px;
+    height: 40px;
+    background-color:white;
+    text-align: center;
+    justify-content: center;
+    /* border: 2px solid; */
+  }
+
+  /* .programmingLanguage  */
+
+  .programmingLanguage select:hover{
+    border: 2px solid;
+    border-color:darkblue;
+  }
+  
+  
+
+  
+
+  .level{
+    display: flex;
+    /* margin-left: 10px; */
+    width: 90%;
+    justify-content: space-between;
+    align-items: center;
+
+  }
+
+ 
+
+
+  .last{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    /* margin-left: 8%; */
+    margin-top: 20px;
+    margin-bottom: 10px;
+    /* padding: 0px 50px; */
+    /* border: 2px solid; */
+    border: 1px solid white;
+    /* box-shadow: 5px 0px 10px 5px#ccc; */
+
+  }
+
+ 
+
+  .sub-btn{
+    display: inline;
+    text-align: right;
+    margin: 10px;
+  }
+
+  .level select{
+    width: 170px;
+    height: 35px;
+    background-color: white;
+    margin-left: 4px;
+
+    /* border: 2px solid; */
+    
+  }
+
+  .level select:hover,.level input[type="number"]:hover{
+    border: 2px solid;
+    border-color:darkblue;
+  }
+
+  .level input[type="number"]{
+    background-color: white;
+    /* border: 2px solid; */
+    width: 80px;
+    height: 35px;
+    margin-left: 4px;
+
+  }
+
+  .totalQ{
+    width: 90%;
+    padding: 0;
+    display: flex;
+    margin-left: 2%;
+    /* justify-content: center; */
+    align-items: center;
+  }
+  .totalQ label{
+    width: 50px;
+    margin-left: 20px;
+    /* border: 1px solid darkblue; */
+    text-align: center;
+    text-transform: none;
+  }
+
+
+  
+  .concept-input-container {
+    display: flex;
+    flex-direction: column;
+    width: 99%;
+  }
+  
+  .concept-input-container label {
+    margin-bottom: 5px;
+    font-weight: bold;
+    /* margin-left: 12px; */
+  }
+  
+  .concept-input-container input {
+    padding: 5px;
+    border-radius: 4px;
+    height: 40px;
+    font-size: 16px;
+    
+  }
+  
+  
+
+  
+  .remove-button {
+    text-decoration: solid;
+    max-width: 50px;
+    padding: 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    cursor: pointer;
+    background-color: red;
+    margin: 2px;
+  }
+
+  .add-button{
+    background-color: #2980b9;
+    text-decoration: solid;
+    max-width: 50px;
+    padding: 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    cursor: pointer;
+    margin: 2px;
+
+  }
+  
+  .remove-button:hover {
+    background-color: #e6e6e6;
+  }
+  .concept-input-container{
+    display: inline;
+  }
+
+  .sub-btn{
+    width: 92%;
+    display: inline;
+    text-align: right;
+    margin: 10px;
+  }
+
+  .generate-btn{
+    background-color: #2980b9;
+  }
+
+  .info-icon {
+    color: white;
+    display: inline-block;
+    background-color: #2980b9;
+    padding: 0;
+    margin-left: 8px;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%; /* Makes it circular */
+    border: 1px solid; /* Black border */
+    text-align: center;
+    justify-items: center;
+    line-height: 15px; /* Centers the '?' vertically */
+    cursor: help; /* Changes the cursor to indicate it's hoverable */
+    font-size: 14px; /* Adjust the size of the '?' mark as needed */
+    /* user-select: ; Prevents the user from selecting the '?' text */
+  }
+  
+  .info-icon:hover::after {
+    content: attr(data-tooltip); /* Shows the tooltip text */
+    position: absolute;
+    white-space: nowrap; /* Keeps the tooltip on one line */
+    bottom: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 4px 8px;
+    color: #fff; /* Text color */
+    background-color: darkblue; /* Background color */
+    border-radius: 4px;
+    font-size: 12px;
+    z-index: 1000;
+  }
+  
+  
+  .info-icon:hover::before {
+    content: '';
+    position: absolute;
+    top: -5px; /* Adjust this to move the arrow up or down */
+    left: 50%;
+    transform: translateX(-50%) rotate(45deg);
+    /* background: black; */
+    width: 10px;
+    height: 10px;
+    z-index: 0;
+  }
+
+  .output{
+    width: 100%;
+  }
+
+
+  .response-containerr{
+    padding: 0;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+  }
+
+
+  .download-btn{
+    background-color: #13b713;
+  }
+  .wmde-markdown{
+    /* width: 20px; */
+    margin-left: 100px;
+  }
+  
+  
+  
